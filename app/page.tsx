@@ -11,7 +11,7 @@ export default function Home() {
           grid-cols-1 grid-flow-row
           sm:grid-cols-none sm:grid-rows-2 sm:grid-flow-col sm:overflow-x-scroll">
         {feedVideos.map((video, index) => (
-          <div className="bg-pink-500 p-2 w-auto max-w-xs sm:w-80 sm:max-w-none" key={index}>
+          <div className="p-2 w-auto max-w-xs sm:w-80 sm:max-w-none" key={index}>
             <div>
               <Image 
                 src={video.thumbnail} 
