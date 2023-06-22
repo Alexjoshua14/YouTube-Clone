@@ -2,6 +2,8 @@
 
 export default function Home() {
   return (
-    <div>Home Page</div>
+    <div className="border-2 border-red-500 flex-1">
+      Home Page
+    </div>
   )
 }
