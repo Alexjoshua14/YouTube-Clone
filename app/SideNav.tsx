@@ -60,8 +60,10 @@ const SideNav = () => {
         <div className="p-0.5">
             <div className="flex flex-col items-center gap-1 lg:px-2">
                 {MenuItem.map((item, index) => (
-                    <Link href={item.pathname} 
-                      className={`flex flex-col items-center py-4 w-full h-full rounded-lg 
+                    <Link 
+                        href={item.pathname} 
+                        key={index}
+                        className={`flex flex-col items-center py-4 w-full h-full rounded-lg 
                                     lg:flex-row lg:p-2 lg:mx-6 lg:gap-5 
                                     hover:bg-zinc-800 cursor-pointer
                                     ${item.pathname == pathname && `bg-zinc-800 hover:bg-zinc-600`}`}>
