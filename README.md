@@ -1,6 +1,7 @@
 This is a YouTube clone created with [Next.js](https://nextjs.org/) project and [Tailwindcss](https://tailwindcss.com/).
 ---
-
+Viewable at: [YouTube UI Clone](https://youtube-clone-psi-pied.vercel.app/)
+___
 
 <img width="600" alt="Screenshot 2023-06-22 at 12 09 28 PM" src="https://github.com/Alexjoshua14/YouTube-Clone/assets/59298565/8febb7a3-3a33-46d2-ab0c-968737fcb37a">
 
